@@ -16,7 +16,7 @@ export function login(username, password) {
 // 获取用户信息
 export function getInfo(token) {
   return request({
-    url: '/admin/acl/index/info',
+    url: '/eduservice/user/info',
     method: 'get',
     params: { token }
   })
